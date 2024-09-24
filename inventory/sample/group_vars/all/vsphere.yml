@@ -11,8 +11,8 @@
 # external_vsphere_version: "6.7u3"
 
 ## Tags for the external vSphere Cloud Provider images
-## gcr.io/cloud-provider-vsphere/cpi/release/manager
-# external_vsphere_cloud_controller_image_tag: "latest"
+## registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere
+# external_vsphere_cloud_controller_image_tag: "v1.31.0"
 ## registry.k8s.io/csi-vsphere/syncer
 # vsphere_syncer_image_tag: "v3.1.1"
 ## registry.k8s.io/sig-storage/csi-attacher
